@@ -9,4 +9,3 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 
 // set the main class for the main 'sbt run' task
 mainClass in (Compile, run) := Some("Entry")
-        
